@@ -1,0 +1,14 @@
+.svg-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+    fill: $primary-color;
+}
+.svg-icon circle {
+    stroke: $primary-color;
+    stroke-width: 1;
+}

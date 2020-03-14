@@ -1,0 +1,29 @@
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $lines-color;
+    padding: 20px 50px;
+}
+#newsletter-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    margin-right: 50px;
+}
+#newsletter-form{
+    display: flex;
+    button{
+        margin-left: 10px;
+        padding: 10px 20px;
+        background-color: $primary-color;
+        transition: 0.5s ease;
+        cursor: pointer;
+        color: #fff;
+        border: none;
+    }
+    button:hover{
+        background-color: darken($primary-color, 20%);
+    }
+}

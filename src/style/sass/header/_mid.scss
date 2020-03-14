@@ -1,0 +1,21 @@
+#header-mid{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px 0 50px;
+}
+#header-mid-seach input{
+    border: 0;
+    border-bottom: 2px solid $lines-color;
+}
+#header-mid-logo{
+    font-size: 40px;
+    padding: 0 20px 0 20px;
+    color: $primary-color;
+}
+#header-mid-login{
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+#header-mid-login:hover{
+    color: $primary-color;
+}

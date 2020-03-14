@@ -1,0 +1,13 @@
+#footer-baseBar{
+    max-width: $query-standard;
+    padding: 10px 0 20px 0;
+    a{
+        padding: 0 20px 0 20px;
+        border-left: 2px solid $lines-color;
+    }
+    a:first-child{
+        padding: 0 20px 0 0;;
+        border-left: 0;
+    }
+}
+

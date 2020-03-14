@@ -1,0 +1,22 @@
+#header-topBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: $primary-color;
+    div{
+        display: flex;
+        justify-content: space-between;
+        width: $query-standard;
+        a{
+            font-weight: bold;
+            border-bottom: 2px solid $primary-color;
+            transition: 0.5s ease;
+        }
+        a:hover{
+            border-bottom: 2px solid black;
+        }
+        
+    }
+}
+

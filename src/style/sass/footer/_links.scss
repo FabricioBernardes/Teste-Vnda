@@ -1,0 +1,31 @@
+#footer-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 0 30px 0;
+    max-width: 900px;
+    border-bottom: 2px solid $lines-color;
+}
+.footer-links-section{
+    width: 150px;
+    margin-right: 20px;
+    div{
+        display: flex;
+    }
+    a{
+        display: block;
+        padding: 10px 0;
+    }
+}
+#footer-links-section-smedia{
+    display: flex;
+}
+
+@media (max-width: 950px){
+    #footer-links{
+        padding: 50px;
+    }
+    .footer-links-section{
+        margin: 20px 80px 0 0;
+    }
+}
